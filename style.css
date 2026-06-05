@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    width: 100vw-10px;
+    color: blue;
+    /* background-color: brown; */
+   
+}
+.header{
+    height: 100%;
+    width: 100%;
+    font-size: 100px;
+    font-weight: 900;
+} 
+main{
+    display: flex;
+}
+
+#container{
+    height: 600px;
+    width: 50vw;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 50%;
+    width: 50%;
+    border: solid;
+}
+
+#rightcont{
+    height: 600px;
+    width: 49vw;
+    background-color: red;
+    /* display: flex; */
+}
+
+
+.box2{
+    height: 50%;
+    width: 100%;
+    border: solid;
+}
